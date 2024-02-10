@@ -8,9 +8,9 @@ driver = webdriver.Safari()
 driver.get("https://en.wikipedia.org/wiki/Apple_Inc.")
 
 #find an element on the webpage
-element = driver.find_element(By.CSS_SELECTOR, 'apple')
+main_content = driver.find_element(By.ID, "mw-content-text")
 
 #print the text of the found element
-print(element.text)
+print(main_content.text)
 
 driver.quit()
