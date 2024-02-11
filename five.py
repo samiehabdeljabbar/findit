@@ -1,3 +1,4 @@
+#https://selenium-python.readthedocs.io/navigating.html <-- Official Documentation
 # this provides all the webdriver implementations
 from selenium import webdriver
 #The KEYS class provides keys in teh keyboard like RETURN, F1, ALT.
